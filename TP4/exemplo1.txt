@@ -1,0 +1,6 @@
+STOCK :{   1 , caneta, 1, 39;
+	   2 , cadeira, 60, 15
+	} ; FATURA 1 FORNECEDOR : jose pires, 23456, rua do monte , 6432 
+                      CLIENTE : manuela lores, 2335 , rua alberto
+		VENDAS 1,2 . 2,17 .
+		MOVIMENTOS : moviemntoA , motimentoB  .

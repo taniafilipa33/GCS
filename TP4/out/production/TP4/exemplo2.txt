@@ -1,0 +1,12 @@
+STOCK :{   1 , caneta, 1, 39;
+	   2 , cadeira, 60, 15;
+	   3 , secretaria, 120, 50;
+	   4 , candeeiro, 90, 20
+	} ; FATURA 1 FORNECEDOR : jojo pires, 23456, rua do monte , 6432
+                      CLIENTE : johny lores, 2335 , rua alberto
+		VENDAS 2,45 . 5,17 .
+		MOVIMENTOS : moviemntoA , motimentoB  ;
+		FATURA 2 FORNECEDOR : jess ana, 2456, rua da ponte , 432
+                              CLIENTE : cesar zeppeli, 23 , rua rocha
+        		VENDAS 1,2 . 3,17 . 4,12.
+        		MOVIMENTOS : moviemntoD .
