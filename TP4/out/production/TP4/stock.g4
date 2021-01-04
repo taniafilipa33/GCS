@@ -18,7 +18,6 @@ s: {HashMap<Integer,Produto> prodsA = new HashMap<Integer,Produto>();
 
 
 stock[HashMap<Integer,Produto> prodsA] returns[HashMap<Integer,Produto> prods]
-
     :
             STOCK ':' '{'
             p1=produto[$prodsA]
@@ -109,6 +108,7 @@ MOVIMENTOS : [Mm][Oo][Vv][Ii][Mm][Ee][Nn][Tt][Oo][Ss];
 CLIENTE : [Cc][Ll][Ii][Ee][Nn][Tt][Ee];
 FORNECEDOR : [Ff][Oo][Rr][Nn][Ee][Cc][Ee][Dd][Oo][Rr];
 VENDAS : [Vv][Ee][Nn][Dd][Aa][Ss];
+
 NUM: [0-9]+;
 STRING: [a-zA-Z]+(' '*[a-zA-Z]+)*;
 VIRG: ',' ;
